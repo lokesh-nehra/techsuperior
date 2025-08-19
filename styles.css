@@ -262,7 +262,7 @@ img {
 }
 
 .casestudies-heading {
-    /* background-color: antiquewhite; */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,15 +287,14 @@ img {
 .casestudies-heading p {
     margin-right: 100px;
     font-size: 15px;
-    /* padding-right: 360px; */
-    /* background-color: aqua; */
+
     padding-right: 375px;
 }
 
 .casestudies-block {
     background-color: #010310;
 
-    /* background-color: antiquewhite; */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,7 +312,7 @@ img {
 
 .casestudy {
     color: white;
-    /* background-color: aquamarine; */
+
     font-size: 15px;
     align-items: center;
     margin-left: 40px;
@@ -321,9 +320,9 @@ img {
 }
 
 .working-process-heading {
-    /* background-color: antiquewhite; */
+
     display: flex;
-    /* justify-content: center; */
+
     align-items: center;
     gap: 37px;
     margin-top: 80px;
@@ -331,13 +330,13 @@ img {
 }
 
 .working-process-heading h4 {
-    /* background-color: aliceblue; */
+
     background-color: #C1FF5F;
     border-radius: 5px;
     width: 27rem;
     height: 2.3rem;
     font-size: 26px;
-    /* text-align: center; */
+
     padding-top: 5px;
     padding-left: 3px;
     padding-right: 1px;
@@ -346,12 +345,12 @@ img {
 }
 
 .working-process-heading p {
-    /* background-color: aliceblue; */
+
     padding-right: 640px;
 }
 
 .process-block {
-    /* background-color: antiquewhite; */
+
     margin-top: 30px;
     padding: 0 55px 0 49px;
     gap: 20px;
@@ -375,7 +374,7 @@ img {
 
 
 .process-card1 div {
-    /* background-color: aquamarine;. */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,7 +384,7 @@ img {
 }
 
 .process-card1 div p {
-    /* background-color: red; */
+
     margin-right: 750px;
     margin-left: 30px;
     font-size: 28px;
@@ -397,7 +396,7 @@ img {
     margin-right: 2px;
     margin-left: 1px;
     font-size: 300%;
-    /* background-color: red; */
+
 }
 
 .process-card1 div img {
@@ -410,7 +409,7 @@ img {
 }
 
 .process-card1 p {
-    /* background-color: aquamarine; */
+
     margin-bottom: 40px;
     margin-left: 43px;
     margin-right: 40px;
@@ -442,7 +441,7 @@ img {
 }
 
 .process-card div {
-    /* background-color: aquamarine; */
+
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -452,8 +451,11 @@ img {
 .process-card img {
     height: 50px;
     margin-top: 35px;
-    /* background-color: #C1FF5F; */
+
 }
+
+
+
 
 .team-heading {
     /* background-color: antiquewhite; */
@@ -513,18 +515,18 @@ img {
     margin-bottom: 20px;
 }
 
-.inner-div{
+.inner-div {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     /* background-color: aqua; */
     margin-top: 2px;
-    width:320px;
+    width: 320px;
     height: 100px;
     /* position: relative; */
 }
 
-.pclass{
+.pclass {
     /* background-color: aqua; */
     margin-top: 25px;
     padding-right: 40px;
@@ -532,44 +534,45 @@ img {
     padding-top: 20px;
 }
 
-.outer-div{
+.outer-div {
     padding: 25px 25px 25px 25px;
     position: relative;
 }
 
-.inner-div label p{
+.inner-div label p {
     margin: auto;
     /* background-color: brown; */
 
 }
 
-.inner-div label{
+.inner-div label {
     margin-left: 16px;
     margin-top: 50px;
 }
 
-.inner-div img{
+.inner-div img {
     width: 90px;
     height: 80px;
     /* background-color: brown; */
-    
+
 }
 
-.inner-div h2{
+.inner-div h2 {
     margin-bottom: 80px;
     position: absolute;
-    top:10px;
+    top: 10px;
     left: 290px;
 }
 
-.all-team{
+.all-team {
     /* background-color: aqua; */
     margin-top: 2rem;
     display: flex;
     align-items: end;
     justify-content: end;
 }
-.all-team button{
+
+.all-team button {
     background-color: #010310;
     color: white;
     width: 190px;
@@ -580,3 +583,551 @@ img {
     font-size: 15px;
     margin-right: 60px;
 }
+
+/* ...................................................................................................................................................................................................................  */
+/* iphone xr and pixel 7 takes maximum 414 and 412 */
+@media screen and (max-width: 414px) {
+
+
+    .landing-page {
+        padding: 0 20px 6px 20px;
+        /* it will reduce side padding */
+    }
+
+    /* for making navigation mobile-friendly */
+    .navbar {
+        flex-direction: column;
+        /* adjust logo and links vertically */
+        gap: 20px;
+        margin-top: 2rem;
+    }
+
+    .logo {
+        justify-content: center;
+        /* centering the logo */
+    }
+
+    .logo img {
+        width: 1.8rem;
+        /* will make slightly smaller logo */
+        height: 1.8rem;
+    }
+
+    .logo span {
+        font-size: 2rem;
+        /* for smaller logo text */
+    }
+
+    .navbar-links {
+        flex-wrap: wrap;
+        /* allow links to wrap to new lines */
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navbar-links a {
+        margin-top: 5px;
+        font-size: 14px;
+        /* for making smaller navigation text */
+    }
+
+    .navbar-links button {
+        width: 7rem;
+        /* for making smaller button */
+        height: 2.2rem;
+        font-size: 12px;
+    }
+
+    /* hero section adjusts vertically */
+    .hero-section {
+        flex-direction: column;
+        /* adjusting content and image vertically */
+        text-align: center;
+        gap: 2rem;
+        margin-top: 30px;
+        /* decreasing top margin */
+    }
+
+    .content-hero {
+        padding-right: 0;
+        /* removing the right padding */
+        align-items: center;
+        /* centering the align content */
+        gap: 15px;
+        /* applying more gap b/w elements */
+    }
+
+    .content-hero h2 {
+        font-size: 2rem;
+        /* making heading smaller*/
+        text-align: center;
+        margin-bottom: 15px;
+        /*giving less margin */
+    }
+
+    .content-hero p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.4;
+        /* for better line spacing */
+    }
+
+    .content-hero button {
+        width: 170px;
+        /* for button smaller*/
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .content-img {
+        display: flex;
+        justify-content: center;
+        /* for centering the image */
+    }
+
+    .content-img img {
+        width: 100%;
+        /* making image width full*/
+        height: auto;
+        /* maintaing the aspect ratio here */
+        max-width: 350px;
+    }
+
+    /* making logo section scrollable */
+    .logotypes {
+        overflow-x: auto;
+        /* allownig horizontal scrolling here */
+        gap: 20px;
+        padding: 0 20px;
+        margin-top: 40px;
+        /* decreasing the top margin */
+        justify-content: flex-start;
+        /* aligning to start for scrolling */
+    }
+
+    .logotypes div {
+        flex-shrink: 0;
+        /* it will prevent logo from shrinking */
+    }
+
+    .logotypes div img {
+        width: 80px;
+        /* for making smaller logos */
+        flex-shrink: 0;
+        /* preventing logo images from shrinking */
+    }
+
+    /* service section adjustments */
+    .service-heading {
+        flex-direction: column;
+        /* adjusting heading and text */
+        padding: 0 20px;
+        text-align: center;
+        gap: 20px;
+        margin-top: 50px;
+        /* decreasing the top margin */
+    }
+
+    .service-heading h4 {
+        width: auto;
+        /* converting width to auto */
+        padding: 8px 16px;
+        font-size: 24px;
+        /* decreasing font size */
+        height: auto;
+        /* converting height to auto */
+    }
+
+    .service-heading p {
+        margin-right: 0;
+        /* removing right margin */
+        padding-right: 0;
+        /* removing right padding */
+        text-align: center;
+        font-size: 14px;
+        
+    }
+
+    /* Service cards become single column */
+    .service-block {
+        grid-template-columns: 1fr;
+        
+        padding: 0 20px;  /* single column */
+        gap: 20px;
+        margin-top: 25px; /* decreasing top margin */
+
+    }
+
+    .service-card {
+        flex-direction: column;
+        /* adjusting content vertically */
+        height: auto;
+        /* converting height to auto */
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        /* making border radius smaller*/
+    }
+
+    .service-card div {
+        margin-left: 0;
+        /* remove left margin */
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+        /* add bottom margin */
+    }
+
+    .service-card div h5 {
+        font-size: 20px;
+        /* smaller font */
+        margin: 5px 0;
+        /* add some margin */
+        padding: 5px 10px;
+        /* Smaller padding */
+    }
+
+    .service-card div img {
+        margin-top: 15px;
+        /* lessing top margin */
+        height: 2rem;
+        /* smaller arrow */
+    }
+
+    .service-card img {
+        margin-right: 0;
+        /* remove right margin */
+        width: 6rem;
+        /* smaller image */
+        height: 6rem;
+        margin-top: 0;
+        /* remove top margin */
+    }
+
+    /* cta block adjustments */
+    .cta-block {
+        flex-direction: column;
+        /* stack content vertically */
+        width: auto;
+        /* auto width */
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        padding: 30px 20px;
+        gap: 30px;
+        margin-top: 50px;
+        /* less top margin */
+        border-radius: 30px;
+        /* smaller border radius */
+    }
+
+    .cta-content {
+        width: auto;
+        /* auto width */
+        height: auto;
+        text-align: center;
+        padding-left: 0;
+        /* remove left padding */
+    }
+
+    .cta-block h4 {
+        font-size: 24px;
+        /* smaller heading */
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .cta-content p {
+        margin-right: 0;
+        /* remove right margin */
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .cta-content button {
+        width: 170px;
+        /* smallering the button */
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .cta-block img {
+        height: 200px;
+        /* smaller image */
+        margin-right: 0;
+        width: auto;
+        /* auto width */
+    }
+
+    /* case studies adjustments */
+    .casestudies-heading {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        margin-top: 70px;
+        gap: 20px;
+    }
+
+    .casestudies-heading h4 {
+        margin-left: 0;
+        width: auto;
+        padding: 8px 16px;
+        font-size: 22px;
+        height: auto;
+    }
+
+    .casestudies-heading p {
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 14px;
+    }
+
+    .casestudies-block {
+        flex-direction: column;
+        /* adjust case studies vertically */
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        padding: 30px 20px;
+        gap: 30px;
+        margin-top: 15px;
+        border-radius: 30px;
+    }
+
+    .casestudy {
+        margin-left: 0;
+        margin-right: 0;
+        border-left: none !important;
+        /* removing left borders */
+        padding-left: 0 !important;
+        text-align: center;
+        height: auto !important;
+        margin-top: 0 !important;
+    }
+
+    .casestudy p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .casestudy img {
+        width: 30px;
+        /* smallering link icons */
+        height: auto;
+    }
+
+    /* working process adjustments */
+    .working-process-heading {
+        flex-direction: column;
+        margin-left: 20px;
+        text-align: center;
+        gap: 20px;
+        margin-top: 70px;
+    }
+
+    .working-process-heading h4 {
+        width: auto;
+        margin-left: 0;
+        padding: 8px 16px;
+        font-size: 20px;
+        height: auto;
+    }
+
+    .working-process-heading p {
+        padding-right: 0;
+        font-size: 14px;
+    }
+
+    .process-block {
+        padding: 0 20px;
+        margin-top: 25px;
+        gap: 15px;
+    }
+
+    .process-card1 {
+        height: auto;
+        /* Auto height */
+        padding: 20px;
+        border-radius: 30px;
+        /* smaller border radius */
+    }
+
+    .process-card1 div {
+        width: 100%;
+        /* making width full*/
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 2px solid black;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .process-card1 div h1 {
+        font-size: 250%;
+        /* smallering step number */
+        margin: 0 0 10px 0;
+    }
+
+    .process-card1 div p {
+        margin: 0;
+        /* removing the margins */
+        font-size: 22px;
+    }
+
+    .process-card1 div img {
+        margin: 10px 0 0 0;
+        /* adjusting margins */
+        height: 40px;
+        /* smallering icon */
+    }
+
+    .process-card1 p {
+        font-size: 15px;
+        /* smaller description */
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .process-card {
+        height: auto;
+        padding: 20px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .process-card div {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        /* adjusting vertically */
+    }
+
+    .process-card div h1 {
+        margin: 0 0 10px 0;
+        /* adjusting the margins */
+        font-size: 250%;
+    }
+
+    .process-card div p {
+        font-size: 20px;
+        margin: 0;
+        /* removing the margin */
+    }
+
+    .process-card img {
+        height: 40px;
+        /* smallering the icon */
+        margin-top: 15px;
+    }
+
+    /* team section adjustments */
+    .team-heading {
+        flex-direction: column;
+        margin-left: 20px;
+        text-align: center;
+        gap: 20px;
+        margin-top: 70px;
+        /* less top margin */
+    }
+
+    .team-heading h4 {
+        margin-left: 0;
+        width: auto;
+        padding: 8px 16px;
+        font-size: 24px;
+        height: auto;
+    }
+
+    .team-heading p {
+        padding-right: 0;
+        font-size: 14px;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+        /* single column */
+        padding: 0 20px;
+        justify-items: center;
+        /* center the cards */
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    .team-card {
+        width: 100%;
+        /* full width */
+        max-width: 350px;
+        /* but not more than original width */
+        height: auto;
+        /* auto height */
+        border-radius: 30px;
+        /* smaller border radius */
+    }
+
+    .outer-div {
+        padding: 20px;
+    }
+
+    .inner-div {
+        width: 100%;
+        /* full width */
+        height: auto;
+        margin-top: 0;
+    }
+
+    .inner-div img {
+        width: 70px;
+        /* smallering team images */
+        height: 60px;
+    }
+
+    .inner-div label {
+        margin-left: 12px;
+        margin-top: 30px;
+    }
+
+    .inner-div label p {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+
+    .inner-div h2 {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        /* adjusting position */
+        left: auto;
+        width: 25px;
+        /* smaller linkedin icon */
+        font-size: 20px;
+    }
+
+    .pclass {
+        margin-top: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        font-size: 13px;
+        /* smaller description */
+    }
+
+    .all-team {
+        justify-content: center;
+        /* centering the button */
+        margin-top: 1.5rem;
+        /* less top margin */
+    }
+
+    .all-team button {
+        margin-right: 0;
+        width: 170px;
+        /* smallering button */
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+
