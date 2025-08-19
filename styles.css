@@ -748,7 +748,7 @@ img {
         
     }
 
-    /* Service cards become single column */
+    /* service cards become single column */
     .service-block {
         grid-template-columns: 1fr;
         
@@ -816,9 +816,8 @@ img {
         padding: 30px 20px;
         gap: 30px;
         margin-top: 50px;
-        /* less top margin */
+        /* lessing top margin */
         border-radius: 30px;
-        /* smaller border radius */
     }
 
     .cta-content {
@@ -827,7 +826,6 @@ img {
         height: auto;
         text-align: center;
         padding-left: 0;
-        /* remove left padding */
     }
 
     .cta-block h4 {
@@ -859,7 +857,7 @@ img {
         /* auto width */
     }
 
-    /* case studies adjustments */
+    
     .casestudies-heading {
         flex-direction: column;
         margin-left: 20px;
@@ -972,7 +970,6 @@ img {
 
     .process-card1 div p {
         margin: 0;
-        /* removing the margins */
         font-size: 22px;
     }
 
@@ -980,7 +977,6 @@ img {
         margin: 10px 0 0 0;
         /* adjusting margins */
         height: 40px;
-        /* smallering icon */
     }
 
     .process-card1 p {
@@ -1052,7 +1048,7 @@ img {
         /* single column */
         padding: 0 20px;
         justify-items: center;
-        /* center the cards */
+        /* centering the cards */
         margin-top: 25px;
         gap: 25px;
     }
@@ -1063,9 +1059,7 @@ img {
         max-width: 350px;
         /* but not more than original width */
         height: auto;
-        /* auto height */
         border-radius: 30px;
-        /* smaller border radius */
     }
 
     .outer-div {
@@ -1074,7 +1068,6 @@ img {
 
     .inner-div {
         width: 100%;
-        /* full width */
         height: auto;
         margin-top: 0;
     }
@@ -1111,20 +1104,18 @@ img {
         padding-right: 20px;
         padding-top: 15px;
         font-size: 13px;
-        /* smaller description */
     }
 
     .all-team {
         justify-content: center;
         /* centering the button */
         margin-top: 1.5rem;
-        /* less top margin */
     }
 
     .all-team button {
         margin-right: 0;
         width: 170px;
-        /* smallering button */
+        /* smallering the  button */
         height: 45px;
         font-size: 14px;
     }
